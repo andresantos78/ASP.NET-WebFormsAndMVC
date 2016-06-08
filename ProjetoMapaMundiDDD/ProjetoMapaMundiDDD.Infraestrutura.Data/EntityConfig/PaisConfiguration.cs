@@ -6,7 +6,6 @@ namespace ProjetoMapaMundiDDD.Domain.Entidades
         public PaisConfiguration()
         {
             HasKey(p => p.PaisID);
-
         }
     }
 }
