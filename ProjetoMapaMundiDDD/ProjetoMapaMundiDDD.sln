@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentacao", "0 - Apresentacao", "{BDE663A5-6E67-4071-BA12-6B693B54703D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Servicos", "1 - Servicos", "{7BC40DB5-9119-4F0A-95C7-610AABDF7BF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Aplicacao", "2 - Aplicacao", "{8C197BE0-C74C-46BE-91CC-B4420E9FF662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dominio", "3 - Dominio", "{935F8917-7AFD-43CD-A750-539573C1AC1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infraestrutura", "4 - Infraestrutura", "{F9794F5E-2757-4F0D-B654-DCF0E5516879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Dados", "4.1 - Dados", "{F605A647-A0EE-4E42-8B8A-2269707FA83A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Transversal", "4.2 - Transversal", "{A6BA6E43-D8D5-4853-98FB-4BF69BB84D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoMapaMundiDDD.MVC", "ProjetoMapaMundiDDD.MVC\ProjetoMapaMundiDDD.MVC.csproj", "{F8FCCB7E-627D-49FE-B44D-2BC4E5B795B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoMapaMundiDDD.Domain", "ProjetoMapaMundiDDD.Domain\ProjetoMapaMundiDDD.Domain.csproj", "{1CC2546A-E987-4224-ABFF-252395732884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoMapaMundiDDD.Infraestrutura.Data", "ProjetoMapaMundiDDD.Infraestrutura.Data\ProjetoMapaMundiDDD.Infraestrutura.Data.csproj", "{9B1A8B0C-4F21-4CA3-BEC7-E514AAA76CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoMapaMundiDDD.Application", "ProjetoMapaMundiDDD.Application\ProjetoMapaMundiDDD.Application.csproj", "{B2A3FEEA-F064-41E5-AFC8-1F6C0470AC5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8FCCB7E-627D-49FE-B44D-2BC4E5B795B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FCCB7E-627D-49FE-B44D-2BC4E5B795B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FCCB7E-627D-49FE-B44D-2BC4E5B795B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FCCB7E-627D-49FE-B44D-2BC4E5B795B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC2546A-E987-4224-ABFF-252395732884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC2546A-E987-4224-ABFF-252395732884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC2546A-E987-4224-ABFF-252395732884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC2546A-E987-4224-ABFF-252395732884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1A8B0C-4F21-4CA3-BEC7-E514AAA76CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1A8B0C-4F21-4CA3-BEC7-E514AAA76CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1A8B0C-4F21-4CA3-BEC7-E514AAA76CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1A8B0C-4F21-4CA3-BEC7-E514AAA76CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A3FEEA-F064-41E5-AFC8-1F6C0470AC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A3FEEA-F064-41E5-AFC8-1F6C0470AC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A3FEEA-F064-41E5-AFC8-1F6C0470AC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A3FEEA-F064-41E5-AFC8-1F6C0470AC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F605A647-A0EE-4E42-8B8A-2269707FA83A} = {F9794F5E-2757-4F0D-B654-DCF0E5516879}
+		{A6BA6E43-D8D5-4853-98FB-4BF69BB84D4E} = {F9794F5E-2757-4F0D-B654-DCF0E5516879}
+		{F8FCCB7E-627D-49FE-B44D-2BC4E5B795B5} = {BDE663A5-6E67-4071-BA12-6B693B54703D}
+		{1CC2546A-E987-4224-ABFF-252395732884} = {935F8917-7AFD-43CD-A750-539573C1AC1C}
+		{9B1A8B0C-4F21-4CA3-BEC7-E514AAA76CE8} = {F605A647-A0EE-4E42-8B8A-2269707FA83A}
+		{B2A3FEEA-F064-41E5-AFC8-1F6C0470AC5F} = {8C197BE0-C74C-46BE-91CC-B4420E9FF662}
+	EndGlobalSection
+EndGlobal
